@@ -1,0 +1,82 @@
+.container {
+  background-color: hsl(273, 75%, 66%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .acc{
+    display: flex;align-items: center;justify-content: center;height: 100vh;
+} */
+.acc-container {
+  background: url("../../assets/images/bg-pattern-desktop.svg");
+  background-color: #fff;
+  height: 500px;
+  width: 60%;
+  border-radius: 20px;
+  overflow-y: hidden;
+}
+.acc-card-img-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 70vh;
+}
+.acc-card-image {
+  height: 200px;
+  position: absolute;
+  left: 190px;
+  bottom: 220px;
+  z-index: 9999;
+}
+.acc-card-second-img {
+  overflow: hidden;
+  position: absolute;
+  left: -60px;
+}
+.faq-container {
+  padding: 20px;
+}
+.faq-title {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 475px) {
+    .container {
+        background-color: hsl(273, 75%, 66%);
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+  .acc-container {
+    background: url("../../assets/images/bg-pattern-desktop.svg");
+    background-color: #fff;
+    height: auto;
+    margin: 20px 0;
+    width: 90%;
+    border-radius: 20px;
+    overflow-y: hidden;
+  }
+  .acc-card-img-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 30vh;
+  }
+  .acc-card-image {
+    height: 200px;
+    position: absolute;
+    left: 40px;
+    height: 100px;
+    top: 80px;
+    z-index: 9999;
+  }
+  .acc-card-second-img {
+    overflow: hidden;
+    position: absolute;
+    left: 60px;
+    top: 0px;
+    height: 200px;
+  }
+}
